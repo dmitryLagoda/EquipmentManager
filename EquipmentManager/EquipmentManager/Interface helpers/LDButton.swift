@@ -25,11 +25,11 @@ class LDButton: UIButton
         }
     }
     
-    required init(coder aDecoder: NSCoder)
-    {
-        super.init(coder: aDecoder)
-        self.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Highlighted)
-        self.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
-        self.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Selected)
-    }
+//    required init(coder aDecoder: NSCoder)
+//    {
+//        super.init(coder: aDecoder)
+//        self.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Highlighted)
+//        self.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+//        self.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Selected)
+//    }
 }
